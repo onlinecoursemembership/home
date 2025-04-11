@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0dcb4;
+    color: #5d3920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 480px;
+    background: #f0dcb4;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin: 0 auto 20px;
+  }
+  
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .btn-term {
+    background-color: #5d3920;
+    color: #fff1d6;
+    padding: 10px 50px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e3364a;
+    font-size: 40px;
+    margin-top: 10px;
+    border-bottom: 3px solid #000;
+    border-radius: 100%;
+    display: block;
+  }
+  .section-heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  border-bottom: 1px solid black ;
+}
+
+.section-heading.gmail {
+  color: #e3364a;
+}
+
+.section-heading.facebook {
+  color: #e3364a;
+}
+
+  .email-section {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .email-section h4 {
+    font-weight: 600;
+    margin: 15px 0 5px;
+  }
+  
+  .email-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .email-group input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+  }
+  
+  .email-group button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #e3364a;
+  }
+  
+  .facebook-box {
+    background: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #e3364a;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .facebook-box span {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .yt-access-link a{
+    background-color: #5d3920;
+    color: #fff1d6;
+    padding: 10px 50px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  .yt-div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .yt-access-div{
+    background-color: #5d3920;
+    color: #fff1d6;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .terms-img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
