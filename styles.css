@@ -154,6 +154,23 @@
     display: inline-block;
     text-decoration: none;
   }
+  .web-div{
+    display: flex;
+    justify-content: center;
+  }
+  .web-access-div{
+    text-align: center;
+    background-color: #5d3920;
+    color: #fff1d6;
+    width: 200px;
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
   .terms-img{
     width: 100%;
     height: auto;
