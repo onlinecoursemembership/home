@@ -1,75 +1,195 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Online Course Membership 2026</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="shortcut icon" href="pics/Asset 3@2x.png" type="image/x-icon">
-</head>
-<body>
-  <div class="container">
-    <img src="pics/Asset 3@2x.png" alt="logo" class="logo" />
-    <h1>ONLINE COURSE MEMBERSHIP 2026</h1>
-    <a href="tap.html" class="btn-term"><i class="fa-solid fa-book-open"></i> TERM AND POLICY</a>
-
-    <h2 class="section-title">ACCESS</h2>
-
-    <div class="section-heading gmail">Gmail Access</div>
-    <div class="email-section">
-      <h4><span>◆</span> Physics & Mathematics</h4>
-      <div class="email-group">
-        <input type="text" value="masumanas07@gmail.com" readonly />
-        <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy" style="color: #ec214f;"></i></button>
-      </div>
-
-      <div class="email-group">
-        <input type="text" value="jhe1289@" readonly />
-        <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy" style="color: #ec214f;"></i></button>
-      </div>
-      <div class="web-div">
-        <a href="https://b2m26.aparsclassroom.com/" class="web-access-div" target="_blank"><i class="fa-solid fa-globe"></i> Physics</a>
-        <a href="https://math26.aparsclassroom.com/" class="web-access-div" target="_blank"><i class="fa-solid fa-globe"></i> Mathematics</a>
-      </div>
-      <h4><span>◆</span> Chemistry & Biology</h4>
-      <div class="email-group">
-        <input type="text" value="abuanasdevil626@gmail.com" readonly />
-        <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy" style="color: #ec214f;"></i></button>
-      </div>
-      <div class="email-group">
-        <input type="text" value="leh2378@" readonly />
-        <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy" style="color: #ec214f;"></i></button>
-      </div>
-    </div>
-        <div class="web-div">
-          <a href="https://chem26.aparsclassroom.com/" class="web-access-div"><i class="fa-solid fa-globe"></i> Chemistry</a>
-          <a href="https://bio26.aparsclassroom.com/" class="web-access-div"><i class="fa-solid fa-globe"></i> Biology</a>
-        </div>
-    <div class="section-heading facebook">Facebook Access</div>
-    <div class="email-group">
-      <input type="text" value="masumanas07@gmail.com" readonly />
-      <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy" style="color: #ec214f;"></i></button>
-    </div>
-    <div class="email-group">
-      <input type="text" value="the2390@" readonly />
-      <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy" style="color: #ec214f;"></i></button>
-    </div>
-    <div class="section-heading facebook">Youtube Access</div>
-    <h4><span>◆</span> Cycle 1</h4>
-    <div class="yt-access-link">
-      <a href="yt-access.html"> <span><i class="fa-solid fa-atom"style="color:#f0dcb4;"></i></span> Chemistry</a>
-      <a href="yt-access.html"> <span><i class="fa-solid fa-stethoscope" style="color:#f0dcb4;"></i></span> Biology</a>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html> -->
 <!DOCTYPE html>
-<html>
-<body>
-  This Page is Under maintinace
-</body>
+<html lang="en">
+    <head>
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title -->
+        <title>Online Course Membership 2026 | Home</title>
+        <!-- link -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mobile.css">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="pics/ocm-logo.png" type="image/x-icon">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body  onload="showSection('section2')">
+        <header>
+            <!-- Logo -->
+            <div class="header-top">
+                <div class="h-logo">
+                    <img src="pics/ocm-logo.png" alt="OCM">
+                </div>
+                <div class="h-link">
+                    <button onclick="showSection('section4')">
+                        Free Resourses
+                    </button>
+                </div>
+             </div>
+            <!-- navigation -->
+            <div class="navigation">
+                <ul>
+                    <li class="list">
+                        <button onclick="showSection('section1')">
+                            <span class="icon">
+                                <i class="fa-solid fa-key"></i>
+                            </span>
+                            <span class="text"> Access </span>
+                        </button>
+                    </li>
+                    <li class="list active">
+                        <button onclick="showSection('section2')">
+                            <span class="icon"> 
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            <span class="text"> Home </span>
+                        </button>
+                    </li>
+                    <li class="list">
+                        <button onclick="showSection('section3')">
+                            <span class="icon">
+                                <i class="fa-solid fa-book-open"></i>
+                            </span>
+                            <span class="text"> Terms </span>
+                        </button>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div id="section1" class="section" data-loaded="false">
+                <div class="loader"></div>
+                <div class="content" style="display: none;">
+                    <div class="access">
+                        <div class="all-access">
+                            <h2><i class="fa-brands fa-google"></i> Gmail Access</h2>
+                            <p>Physics & Mathematics</p>
+                            <hr>
+                            <div class="access-inp">
+                                <input type="text" value="masumanas07@gmail.com" readonly />
+                                <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy"></i></button>
+                            </div>
+                            <div class="access-inp">
+                                <input type="text" value="jhe1289@" readonly />
+                                <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy"></i></button>
+                            </div>
+                            <p>Chemistry & Biology</p>
+                            <hr>
+                            <div class="access-inp">
+                                <input type="text" value="abuanasdevil626@gmail.com" readonly />
+                                <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy"></i></button>
+                            </div>
+                            <div class="access-inp">
+                                <input type="text" value="leh2378@" readonly />
+                                <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy"></i></button>
+                            </div>
+                            <h2><i class="fa-solid fa-globe"></i> Webapp Access</h2>
+                            <div class="access-a">
+                                <a href="https://b2m26.aparsclassroom.com/"  target="_blank"><i class="fa-solid fa-apple-whole"></i> Physics</a>
+                                <a href="https://math26.aparsclassroom.com/" target="_blank"><i class="fa-solid fa-square-root-variable"></i> Mathematics</a>
+                                <a href="https://chem26.aparsclassroom.com/" target="_blank"><i class="fa-solid fa-flask-vial"></i> Chemistry</a>
+                                <a href="https://bio26.aparsclassroom.com/"  target="_blank"><i class="fa-solid fa-dna"></i> Biology</a>
+                            </div>
+                            <h2> <i class="fa-brands fa-facebook"></i> Facebook Access</h2>
+                            <div class="access-inp">
+                                <input type="text" value="masumanas07@gmail.com" readonly />
+                                <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy"></i></button>
+                            </div>
+                            <div class="access-inp">
+                                <input type="text" value="the2390@" readonly />
+                                <button onclick="copyToClipboard(this)"><i class="fa-solid fa-copy"></i></button>
+                            </div>
+                            <div class="yt-btn">
+                                <button onclick="showSection('section5')">
+                                    <h2><i class="fa-brands fa-youtube" style="color: var(--clr); font-size: 35px;"></i> Youtube access</h2>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            
+              <div id="section2" class="section hidden" data-loaded="false">
+                <div class="loader"></div>
+                <div class="content" style="display: none;">
+                    <div class="home">
+                        <h3>
+                            Welcome to
+                        </h3>
+                        <h2>
+                            Online Course Membership
+                        </h2>
+                        <h4>
+                            2026
+                        </h4>
+                        <p>
+                            We’re happy to have you here. Please be respectful, stay active, and follow ocm's rules and privacy policies. Let’s learn and grow together!
+                        </p>
+                        <div class="card-container" id="cardContainer">
+                            <div class="card card1"><p>"It always seems impossible until it's done." </p> <span>- Nelson Mandela</span></div>
+                            <div class="card card2"><img src="pics/BUET.svg" alt="buet" style="height: 200px;"></div>
+                            <div class="card card3"><img src="pics/DMC.png" alt="dmc" style="height: 200px;"></div>
+                            <div class="card card4"><img src="pics/DU.svg" alt="du" style="height: 200px;"></div>
+                            <div class="card card5"><p>"END is not the end; in fact E.N.D. means “Effort Never Dies”." </p> <span>- A. P. J. Abdul Kalam</span></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            
+              <div id="section3" class="section hidden" data-loaded="false">
+                <div class="loader"></div>
+                <div class="content" style="display: none;">
+                    <div class="xard-container" id="xardContainer">
+                        <div class="xard xard1"><img src="pics/Artboard 1.png" alt="t&p" ></div>
+                        <div class="xard xard2"><img src="pics/Artboard 2.png" alt="t&p"></div>
+                        <div class="xard xard3"><img src="pics/Artboard 3.png" alt="t&p"></div>
+                        <div class="xard xard4"><img src="pics/Artboard 4.png" alt="t&p"></div>
+                        <div class="xard xard5"><img src="pics/Artboard 5.png" alt="t&p"></div>
+                    </div>
+                </div>
+              </div>
+              <div id="section4" class="section hidden" data-loaded="false">
+                <div class="loader"></div>
+                <div class="content" style="display: none;">
+                    <div class="grid-container">
+                        <div class="library"><a href="https://aapathshala.com/library/" target="_blank"><i class="fa-solid fa-book"></i> Library</a></div>
+                        <div class="html"><a href="https://codepen.io/pen" target="_blank"><i class="fa-solid fa-code"></i></a></div>
+                        <div class="desmos"><a href="https://www.desmos.com/" target="_blank"><i class="fa-solid fa-square-root-variable"></i> </a></div>
+                        <div class="pt"><a href="https://periodic.donghwi.dev/" target="_blank"><i class="fa-solid fa-vial"></i> 3D  Periodic Table</a></div>
+                        <div class="c-compiler"><a href="https://www.programiz.com/c-programming/online-compiler/"  target="_blank"><i class="fa-solid fa-square-binary"></i> </a></div>
+                      </div>                      
+                </div>
+              </div>
+              <div id="section5" class="section hidden" data-loaded="false">
+                <div class="loader"></div>
+                <div class="content" style="display: none;">
+                    <div class="yt-container">
+                        <h2>Cycle 1</h2>
+                    <div class="yt-h">Chemistry</div>
+                    <hr>
+                    <div class="yt-div">
+                        <a href="https://youtube.com/playlist?list=PLJMUrhHfo2Bq13m3498gqeYF8EPIS-WgI&si=1wH4tmEYhFZedioM" class="yt-access-div" target="_blank">ল্যাবরেটরির নিরাপদ ব্যবহার</a>
+                        <a href="https://youtube.com/playlist?list=PLJMUrhHfo2BpEylnsoJ-9twS80VGRMNpl&si=CynIHaL1H1oUJb-8" class="yt-access-div" target="_blank">গুণগত রসায়ন</a>
+                    </div>
+                    <div class="yt-h">Biology</div>
+                    <hr>
+                    <div class="yt-div">
+                        <a href="https://youtube.com/playlist?list=PLJMUrhHfo2BrCs0b9vrhJOdes5BqJxhOT&si=9GY12pWxg6N_J-Md" class="yt-access-div" target="_blank">কোষ ও কোষের গঠন</a>
+                        <a href="https://youtube.com/playlist?list=PLJMUrhHfo2BrRKR3Kwly8AgfAITIEpA4n&si=HC5ql5vzF-9YiXT8" class="yt-access-div" target="_blank">কোষ বিভাজন</a>
+                        <a href="https://youtube.com/playlist?list=PLJMUrhHfo2BrgCpaRMGkqVJwirEUUApaJ&si=qZIqypGMjqcAgEkc" class="yt-access-div" target="_blank">অনুজীব</a>
+                    </div>
+                </div>
+              </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+    <script src="script.js"></script>
 </html>
