@@ -210,7 +210,7 @@ body{
     }
   }
 .home , .yt-container{
-    height: 75vh;
+    height: 70vh;
     width: 100vw;
     padding: 10px;
     overflow: auto;
@@ -269,7 +269,7 @@ body{
     color: var(--clr2);
   }
 .access {
-    height: 75vh;
+    height: 70vh;
     width: 100vw;
     overflow-y: auto;
     padding: 20px;
@@ -349,7 +349,7 @@ body{
 }
 .yt-btn button h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 .yt-container h2 {
     padding: 10px;
@@ -383,6 +383,7 @@ body{
     width: 100%;
     max-width: 95vw;
     -webkit-overflow-scrolling: touch;
+    height: 75vh;
   }
   
 .xard-container::-webkit-scrollbar {
@@ -400,7 +401,7 @@ body{
     user-select: none;
   }
 .xard img{
-    height: 77vh;
+    height: 68vh;
 }
 .xard img:hover{
     scale: 1.2;
